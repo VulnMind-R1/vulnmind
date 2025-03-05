@@ -22,8 +22,10 @@ python main.py top-level-pkg-folder
 - Support more and better actions
 - prompt engineering is required.
 
-# Example Output:
 
+
+```
+## Example Output:
 ```
 > Running step 3b5a1c6f-81c6-4edf-bce6-6c5d3e983383. Step input:
 You are an expert security analyst tasked with determining if a Python package is malware. You have the following tools at your disposal:
@@ -81,7 +83,7 @@ setup(
     'Programming Language :: Python :: 3.6',
   ],
 )
-# You got me :D
+
 from os import name
 from sys import argv
 from base64 import b64decode
@@ -96,5 +98,4 @@ Analysis result: Could not determine if the package is malware; no clear final a
 WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
 E0000 00:00:1741188403.528753 2775958 init.cc:232] grpc_wait_for_shutdown_with_timeout() timed out.
 ```
-```
-```
+
